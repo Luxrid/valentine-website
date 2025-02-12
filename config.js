@@ -1,6 +1,4 @@
 const CONFIG = {
-    // Your Valentine's name that will appear in the title
-    // Example: "Jade", "Sarah", "Mike"
     valentineName: "Blue",
 
     // The title that appears in the browser tab
@@ -14,8 +12,7 @@ const CONFIG = {
         bears: ['🧸', '🐻']                       // Cute bear emojis
     },
 
-    // Questions and answers
-    // Customize each question and its possible responses
+    
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
@@ -29,16 +26,15 @@ const CONFIG = {
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
+            text: "Will you be my Valentine Darling?", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
     },
 
-    // Love meter messages
-    // They show up depending on how far they slide the meter
+    
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
+        extreme: "I still love you most<3",  // Shows when they go past 5000%
         high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
         normal: "And beyond! 🥰"                           // Shows when they go past 100%
     },
@@ -53,10 +49,10 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
-        buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
+        backgroundStart: "EBC7E8",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "BFACE0",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "645CAA",     // Button color (should stand out against the background)
+        buttonHover: "A084CA",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#ff4757"             // Text color (make sure it's readable!)
     },
 
@@ -65,8 +61,8 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        bounceSpeed: "0.3s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        heartExplosionSize: 1.2         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
@@ -77,7 +73,7 @@ const CONFIG = {
         musicUrl: "https://res.cloudinary.com/dqrriq8w9/video/upload/v1739401298/Kuzu_Mellow_-_sunflower_feelings_prod._by_korou_psfc82.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
-        volume: 0.5                        // Volume level (0.0 to 1.0)
+        volume: 0.3                        // Volume level (0.0 to 1.0)
     }
 };
 
